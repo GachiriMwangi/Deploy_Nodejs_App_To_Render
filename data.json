@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "firstname": "Henry",
+        "lastname": "Desagu",
+        "phone": "+25414837483",
+        "residence": {
+            "street": "Black",
+            "city": "City Walk"
+        }
+    },
+    {
+        "id": 2,
+        "firstname": "Alice",
+        "lastname": "Mwangi",
+        "phone": "+254712345678",
+        "residence": {
+            "street": "Green",
+            "city": "Nairobi"
+        }
+    },
+    {
+        "id": 3,
+        "firstname": "John",
+        "lastname": "Doe",
+        "phone": "+254798765432",
+        "residence": {
+            "street": "Blue",
+            "city": "Mombasa"
+        }
+    },
+    {
+        "id": 4,
+        "firstname": "Maria",
+        "lastname": "Karanja",
+        "phone": "+254701234567",
+        "residence": {
+            "street": "Red",
+            "city": "Kisumu"
+        }
+    },
+    {
+        "id": 5,
+        "firstname": "David",
+        "lastname": "Ochieng",
+        "phone": "+254733456789",
+        "residence": {
+            "street": "Yellow",
+            "city": "Eldoret"
+        }
+    },
+    {
+        "id": 6,
+        "firstname": "Grace",
+        "lastname": "Wanjiru",
+        "phone": "+254754321098",
+        "residence": {
+            "street": "Purple",
+            "city": "Nakuru"
+        }
+    },
+    {
+        "id": 7,
+        "firstname": "Michael",
+        "lastname": "Otieno",
+        "phone": "+254765432109",
+        "residence": {
+            "street": "Orange",
+            "city": "Nyeri"
+        }
+    },
+    {
+        "id": 8,
+        "firstname": "Sarah",
+        "lastname": "Njuguna",
+        "phone": "+254876543210",
+        "residence": {
+            "street": "Pink",
+            "city": "Meru"
+        }
+    },
+    {
+        "id": 9,
+        "firstname": "James",
+        "lastname": "Kiptoo",
+        "phone": "+254987654321",
+        "residence": {
+            "street": "Grey",
+            "city": "Kitale"
+        }
+    },
+    {
+        "id": 10,
+        "firstname": "Linda",
+        "lastname": "Achieng",
+        "phone": "+254654321098",
+        "residence": {
+            "street": "Brown",
+            "city": "Machakos"
+         }
+    }
+]

@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 import router from './Routes/router.js'
 dotenv.config()
 const app = express()
-
+app.use(express.json());
 app.use("/", router)
 
 app.listen(process.env.PORT, () => console.log(`App listening on port ${process.env.PORT}`))
