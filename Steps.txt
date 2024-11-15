@@ -1,0 +1,8 @@
+Upload your nodejs project to your Github account. 
+Go to Render.com, and sign in using your github.
+On the dashboard, checkout the Web services and click on it. 
+Connect your Render to Github. 
+Once this is done, select the repository that your want to upload to Render. 
+Give your project a name. 
+Finish up on other fields, and hit deploy.
+Wait for some magic to happen.
