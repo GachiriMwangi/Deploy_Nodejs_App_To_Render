@@ -1,21 +1,9 @@
-const express = require('express')
-require('dotenv').config()
+import express from 'express'
+import dotenv from 'dotenv'
+import router from './Routes/router.js'
+dotenv.config()
 const app = express()
-app.get("/api", (req, res) => {
-    res.status(200).json({
-        success: true, 
-        message: "Api Working Perfect!", 
-        data: {
-            id: 1, 
-            firstname: 'Henry', 
-            lastname: 'Desagu', 
-            phone: '+25414837483', 
-            residence: {
-                 street: 'Black', 
-                city: 'City Walk'
-            }
-        }
-    })
-})
 
-app.listen(() => console.log(`App listening on port ${process.env.PORT}`))
+app.use("/", router)
+
+app.listen(process.env.PORT, () => console.log(`App listening on port ${process.env.PORT}`))
